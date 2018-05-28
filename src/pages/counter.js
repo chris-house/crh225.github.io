@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 class Counter extends React.Component {
     constructor () {
         super()
-        this.state = { count: 1 }
+        this.state = { count: 0 }
     }
 
     render() {
