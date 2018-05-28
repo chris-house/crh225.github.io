@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 class Counter extends React.Component {
     constructor () {
         super()
-        this.state = { count: 0 }
+        this.state = { count: 1 }
     }
 
     render() {
@@ -18,6 +18,7 @@ class Counter extends React.Component {
                 } ) }
                 >plus
         </button>
+                <br />
                 <button onClick={ () => this.setState( {
                     count: this.state.count -
                         1
@@ -25,7 +26,7 @@ class Counter extends React.Component {
                 >minus
         </button>
                 <br />
-                    <Link to="/">Go back to the homepage</Link>                      
+                <Link to="/">Go back to the homepage</Link>
             </div>
         )
     }

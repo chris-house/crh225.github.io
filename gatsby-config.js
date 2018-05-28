@@ -10,6 +10,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet'
-  ]
+  ],
+  pathPrefix: `/crh225.github.io`,
  
 }
